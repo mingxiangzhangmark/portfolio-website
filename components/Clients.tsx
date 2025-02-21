@@ -26,7 +26,7 @@ const Clients = () => {
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
-          {companies.map((company) => (
+          {/* {companies.map((company) => (
             <React.Fragment key={company.id}>
               <div className="flex md:max-w-60 max-w-32 gap-2">
                 <img
@@ -42,7 +42,7 @@ const Clients = () => {
                 />
               </div>
             </React.Fragment>
-          ))}
+          ))} */}
         </div>
       </div>
     </section>
