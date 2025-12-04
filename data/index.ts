@@ -123,38 +123,54 @@ export const projects = [
     iconLists: ["/html.png", "/css.png", "/js.png"],
     link: "https://neighbour-link-car-sharing-website.vercel.app/",
   },
+  {
+    id: 5,
+    title: "TechPath Blog Website",
+    des: "TechPath Blog is a technical knowledge-sharing platform where users can create, tag, and interact with posts through likes and comments. It also integrates AI-powered content recommendations and provides an admin dashboard for platform management.",
+    img: "/p5-picture.png",
+    iconLists: ["/re.svg", "/tail.svg", "/dj.svg", "/py.svg"],
+    link: "https://github.com/mingxiangzhangmark/TechPath_blog/",
+  },
+  {
+    id: 6,
+    title: "Spendwise Website",
+    des: "Spendwise provides a unified and intuitive platform for managing personal finances by bringing together all accounts, budgets, and spending insights in one place. Users can track expenses in real time, set personalized goals, and receive AI-powered recommendations tailored to their financial habits. The system aims to make financial management clearer, more proactive, and easier for users to build long-term healthy spending habits.",
+    img: "/p6-picture.png",
+    iconLists: ["/re.svg", "/tail.svg", "/java.svg", "/spring.svg"],
+    link: "https://github.com/mingxiangzhangmark/Spendwise",
+  },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Working with Mark was a fantastic experience. His expertise as a full-stack developer shines through in every aspect of his work. From backend logic to frontend finesse, he delivers seamless, high-quality solutions with efficiency and precision. Mark’s problem-solving skills, adaptability, and commitment to excellence make him an invaluable asset to any project. If you're looking for a developer who can bring your vision to life, Mark is the perfect choice.",
-    name: "Gina Santos",
-    title: "Lead Developer at Company",
+      "Mingxiang consistently demonstrated a high level of technical competence, reliability, and adaptability. His contributions made a significant impact on the ongoing development of our platform.",
+    name: "Zakhele Shongwe",
+    title: "Lead Developer at Wastedump Limitied",
   },
   {
     quote:
-      "Working with Mark was a fantastic experience. His expertise as a full-stack developer shines through in every aspect of his work. From backend logic to frontend finesse, he delivers seamless, high-quality solutions with efficiency and precision. Mark’s problem-solving skills, adaptability, and commitment to excellence make him an invaluable asset to any project. If you're looking for a developer who can bring your vision to life, Mark is the perfect choice.",
-    name: "Gina Santos",
-    title: "Lead Developer at Company",
+      "Mingxiang consistently demonstrated a high level of technical competence, reliability, and adaptability. His contributions made a significant impact on the ongoing development of our platform.",
+    name: "Zakhele Shongwe",
+    title: "Lead Developer at Wastedump Limitied",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Mingxiang consistently demonstrated a high level of technical competence, reliability, and adaptability. His contributions made a significant impact on the ongoing development of our platform.",
+    name: "Zakhele Shongwe",
+    title: "Lead Developer at Wastedump Limitied",
   },
   {
     quote:
-      "Working with Mark was a fantastic experience. His expertise as a full-stack developer shines through in every aspect of his work. From backend logic to frontend finesse, he delivers seamless, high-quality solutions with efficiency and precision. Mark’s problem-solving skills, adaptability, and commitment to excellence make him an invaluable asset to any project. If you're looking for a developer who can bring your vision to life, Mark is the perfect choice.",
-    name: "Gina Santos",
-    title: "Lead Developer at Company",
+      "Mingxiang consistently demonstrated a high level of technical competence, reliability, and adaptability. His contributions made a significant impact on the ongoing development of our platform.",
+    name: "Zakhele Shongwe",
+    title: "Lead Developer at Wastedump Limitied",
   },
   {
     quote:
-      "Working with Mark was a fantastic experience. His expertise as a full-stack developer shines through in every aspect of his work. From backend logic to frontend finesse, he delivers seamless, high-quality solutions with efficiency and precision. Mark’s problem-solving skills, adaptability, and commitment to excellence make him an invaluable asset to any project. If you're looking for a developer who can bring your vision to life, Mark is the perfect choice.",
-    name: "Gina Santos",
-    title: "Lead Developer at Company",
+      "Mingxiang consistently demonstrated a high level of technical competence, reliability, and adaptability. His contributions made a significant impact on the ongoing development of our platform.",
+    name: "Zakhele Shongwe",
+    title: "Lead Developer at Wastedump Limitied",
   },
 ];
 
@@ -194,25 +210,25 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "(1/2025 - 3/2025)- Worked on the frontend team to develop and maintain user-facing features. Used Next.js, Tailwind CSS, and TypeScript.",
+    title: "Full Stack developing Intern",
+    desc: "(1/2025 - 6/2025) Westedump Ltd - ● Built user-facing interfaces using React, Next.js, and Tailwind CSS for responsive and modern frontend design. ● Developed backend services and business logic using Node.js, Express, and NestJS. ● Integrated and created RESTful APIs to connect frontend and backend systems. ● Managed data using PostgreSQL, and connected backend services. ● Deployed components in Microsoft Azure.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "wastedump.png",
   },
   {
     id: 2,
-    title: ".NET App Dev Project",
-    desc: "Led the dev of a C# web app, finish initial concept to deployment on Azure.",
+    title: "Frontend Intern",
+    desc: "(7/2025 - 11/2025) Carbonetrix- ● Developed and maintained key modules of the company website using Next.js (App Router), React, TypeScript, and Tailwind CSS, ensuring clean, modular, and scalable code. ● Implemented SEO optimisation, including metadata configuration, structured data, performance tuning, and improved Lighthouse scores to enhance search visibility. ● Integrated reusable UI components and responsive layouts to deliver a consistent user experience across desktop and mobile. ● Collaborated with team members to review code, refine requirements, and deploy updates through modern development workflows and Git-based version control.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/carbon.svg",
   },
-  // {
-  //   id: 3,
-  //   title: "Freelance App Dev Project",
-  //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-  //   className: "md:col-span-2", // change to md:col-span-2
-  //   thumbnail: "/exp3.svg",
-  // },
+  {
+    id: 3,
+    title: "Full Stack developing Intern",
+    desc: "(6/2025 - 11/2025)Job search works ",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/JobSearchWork.png",
+  },
   // {
   //   id: 4,
   //   title: "Lead Frontend Developer",
